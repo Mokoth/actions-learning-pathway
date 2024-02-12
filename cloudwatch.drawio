@@ -1,9 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2024-02-12T15:11:00.362Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="23.1.2" etag="wK7BmTaWv1zH1xnIJ4Wk" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-12T15:18:26.042Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="HphYRyLx2jeBymf-rY4k" version="23.1.2" type="github">
   <diagram name="Page-1" id="b0iKgWh69O-WyAREr3cV">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FGuGDPbO9H4Pt4RzLvpK-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="79" y="412" as="sourcePoint" />
+            <mxPoint x="189" y="269" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="79" y="269" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FGuGDPbO9H4Pt4RzLvpK-1" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="410" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="FGuGDPbO9H4Pt4RzLvpK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="242.875" y="266.5" as="sourcePoint" />
+            <mxPoint x="411" y="266.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="381" y="267" />
+              <mxPoint x="381" y="267" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FGuGDPbO9H4Pt4RzLvpK-2" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cloudwatch;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="220" width="82.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="FGuGDPbO9H4Pt4RzLvpK-3" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.alarm;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="220" width="54" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="FGuGDPbO9H4Pt4RzLvpK-4" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.email_notification;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="621" y="234" width="100.5" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="FGuGDPbO9H4Pt4RzLvpK-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="462.005" y="266" as="sourcePoint" />
+            <mxPoint x="630.13" y="266" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600.13" y="266.5" />
+              <mxPoint x="600.13" y="266.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FGuGDPbO9H4Pt4RzLvpK-8" value="EC2 Instance" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="499" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FGuGDPbO9H4Pt4RzLvpK-9" value="Amazon CloudWatch" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="151.25" y="313" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FGuGDPbO9H4Pt4RzLvpK-10" value="Alarm" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="412" y="286" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FGuGDPbO9H4Pt4RzLvpK-11" value="Email Notification&lt;br&gt;SNS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="621" y="297" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FGuGDPbO9H4Pt4RzLvpK-12" value="Create alarm" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="61.25" y="238" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FGuGDPbO9H4Pt4RzLvpK-13" value="Alarm triggered" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="234" width="110" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
